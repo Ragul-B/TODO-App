@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="frame">
+            <h1>To-Do List</h1>
+            <input type="text" id="taskInput" placeholder="Add new task..." onkeydown="if(event.keyCode===13) addTask()">
+            <button onclick="addTask()"><i class="fas fa-plus"></i> Add</button>
+            <button class="toggle-btn" onclick="toggleCompleted()">☰</button>
+            <ul id="taskList"></ul>
+            <div id="completedMsg" class="completed-msg"></div>
+            <div id="completedTasks" class="completed-tasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
