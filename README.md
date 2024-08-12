@@ -1,6 +1,6 @@
 
   <div class=demo>
-  <a href="https://ragul-b.github.io/TODO-App/">Click to Land on Demo</a>
+  <a href="https://todo-app-sage-xi.vercel.app/">Click to Land on Demo</a>
 </div>
 <h1>Languages Used</h1>
 <p>
